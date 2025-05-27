@@ -2,7 +2,7 @@
 export interface Property {
   id: string;
   name: string;
-  type: 'hotel' | 'restaurant' | 'conference';
+  type: 'hotel' | 'restaurant' | 'conference' | 'entertainment';
   location: string;
   price: number;
   currency: string;

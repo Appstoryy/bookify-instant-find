@@ -1,4 +1,3 @@
-
 import { Property, AdditionalService } from "@/types/booking";
 
 export const mockProperties: Property[] = [
@@ -85,6 +84,62 @@ export const mockProperties: Property[] = [
     description: 'Конференц-зал с панорамными окнами и видом на город',
     amenities: ['Проектор', 'Кондиционер', 'Wi-Fi', 'Буфет'],
     capacity: 60
+  },
+  {
+    id: '7',
+    name: 'Прокат квадроциклов "Адреналин"',
+    type: 'entertainment',
+    location: 'Московская область, Дмитров',
+    price: 2500,
+    currency: 'RUB',
+    rating: 4.7,
+    reviews: 143,
+    image: '/placeholder.svg',
+    description: 'Захватывающие поездки на квадроциклах по живописным лесным тропам',
+    amenities: ['Инструктор', 'Экипировка', 'Топливо', 'Страховка'],
+    capacity: 8
+  },
+  {
+    id: '8',
+    name: 'Багги-парк "Экстрим"',
+    type: 'entertainment',
+    location: 'Ленинградская область',
+    price: 3200,
+    currency: 'RUB',
+    rating: 4.8,
+    reviews: 89,
+    image: '/placeholder.svg',
+    description: 'Незабываемые гонки на багги по специально подготовленной трассе',
+    amenities: ['Шлемы', 'Защита', 'Инструктаж', 'Парковка'],
+    capacity: 6
+  },
+  {
+    id: '9',
+    name: 'Банный комплекс "Царские бани"',
+    type: 'entertainment',
+    location: 'Москва, Сокольники',
+    price: 4500,
+    currency: 'RUB',
+    rating: 4.9,
+    reviews: 267,
+    image: '/placeholder.svg',
+    description: 'Роскошный банный комплекс с русской баней, финской сауной и хаммамом',
+    amenities: ['Бассейн', 'Массаж', 'Чай', 'Веники', 'Халаты'],
+    capacity: 12
+  },
+  {
+    id: '10',
+    name: 'Баня на дровах "Русская изба"',
+    type: 'entertainment',
+    location: 'Подмосковье, Истра',
+    price: 2800,
+    currency: 'RUB',
+    rating: 4.6,
+    reviews: 134,
+    image: '/placeholder.svg',
+    description: 'Аутентичная русская баня на дровах с купелью и зоной отдыха',
+    amenities: ['Купель', 'Мангал', 'Веники', 'Чай', 'Парковка'],
+    capacity: 8
   }
 ];
 

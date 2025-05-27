@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -46,6 +45,7 @@ export const SearchFilters = ({ onFilter }: SearchFiltersProps) => {
               <SelectItem value="hotel">Отели</SelectItem>
               <SelectItem value="restaurant">Рестораны</SelectItem>
               <SelectItem value="conference">Конференц-залы</SelectItem>
+              <SelectItem value="entertainment">Развлечения</SelectItem>
             </SelectContent>
           </Select>
         </div>
